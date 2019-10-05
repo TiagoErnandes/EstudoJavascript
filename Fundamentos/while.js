@@ -10,3 +10,5 @@ while (opcao != -1) {
   opcao = getInteiroAleatorioEnter(-1, 10);
   console.log(`Opção sorteadas foram : ${opcao}`);
 }
+
+console.log('Fim');
