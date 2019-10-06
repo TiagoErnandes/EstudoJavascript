@@ -60,6 +60,12 @@ let multi = function (total) {
 
 console.log(somaCallBackMulti(10, 5, multi));
 
+function escreveNome(nome = 'Ernandes', idade = 30) {
+  console.log(nome);
+  console.log(idade);
+}
+escreveNome('Tiago', 27);
+
 
 
 
