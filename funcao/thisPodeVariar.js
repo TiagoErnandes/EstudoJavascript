@@ -9,3 +9,4 @@ pessoa.falar();
 
 const falarp = pessoa.falar.bind(pessoa);
 falarp();
+

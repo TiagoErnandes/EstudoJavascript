@@ -12,5 +12,6 @@ let ola = function () {
 ola = () => 'Olé';
 
 
-ola = _ => 'Ola';
+ola = _ => 'Ola'; // Possui paramentros;
 console.log(ola());
+
