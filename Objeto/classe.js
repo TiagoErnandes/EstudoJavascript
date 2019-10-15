@@ -22,11 +22,9 @@ class CicloFinanceiro {
     let valorConsolidado = 0;
     this.lancamentos.forEach(l => {
       valorConsolidado += l.valor
-    }
+    })
+
     return valorConsolidado;
-    )
-
-
   }
 }
 
