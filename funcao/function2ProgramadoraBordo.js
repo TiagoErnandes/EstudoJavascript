@@ -19,3 +19,6 @@ let perso = {
 }
 
 Personagem.call(perso, 'parametro1', 855, [8, 6, 9]);
+
+//Apply os parametro são atribuidos dentro de um Array
+
