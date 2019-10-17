@@ -3,7 +3,7 @@
 
 // Contexto léxico em ação!
 
-const x = 'Global'
+/*const x = 'Global'
 
 
 function fora() {
@@ -18,4 +18,31 @@ function fora() {
 
 const minhaFuncao = fora();
 
-console.log(minhaFuncao());
+console.log(minhaFuncao());*/
+/*
+function minhaBiblioteca() {
+  function auxiliar(valor) {
+    return valor + 10;
+  }
+  return {
+    add5() {
+      return auxiliar(5);
+    },
+    add7() {
+      return auxiliar(7);
+    }
+  }
+}
+
+var bilioteca = minhaBiblioteca();
+console.log(bilioteca.add7());
+console.log(bilioteca.add5());
+*/
+
+function inicializa() {
+  let nome = 'Tiago';
+  setTimeout(function () {
+    console.log(nome);
+  }, 5000)
+}
+inicializa();
