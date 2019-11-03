@@ -1,0 +1,50 @@
+<h1>Formulário</h1>
+
+<form action="http://localhost:3003/usuarios" method="POST">
+  <input type="text" name="nome">
+  <input type="password" name="Senha">
+  <textarea name="bio" cols="30" rows="10"></textarea>
+  <div>
+    <input type="radio" name="tipo" value="admin">Admin
+    <input type="radio" name="tipo" value="regular">Regular
+    <input type="radio" name="tipo" value="professor">Professor
+  </div>
+
+  <div>
+    <input type="checkbox" name="Ativo">Ativo
+  </div>
+  <div>
+    <select name="estado">
+      <option>Selecione</option>
+      <option value="mg">MG</option>
+      <option value="sp">SP</option>
+      <option value="to">TO</option>
+
+    </select>
+  </div>
+  <div>
+
+    <select name="interesses" multiple size="5">
+      <option value="js">JavaScript</option>
+      <option value="java">Java</option>
+      <option value="php">PHP</option>
+      <option value="go">GO</option>
+    </select>
+  </div>
+
+
+  <button>Incluir</button>
+
+</form>
+<style>
+  input,
+  textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type=radio],
+  input[type=checkbox] {
+    display: inline;
+  }
+</style>
