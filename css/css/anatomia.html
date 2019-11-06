@@ -5,7 +5,32 @@
     <meta charset="UTF-8">
     <title>Anatomia CSS</title>
     <style>
-        /* ... */
+        .selector {
+            color: #fff;
+            font-size: 30px;
+            text-align: center;
+            /*multiplos valores*/
+            border: solid 5px rgb(13, 58, 204);
+            font-family: sans-serif, monospace;
+            /*funçoes*/
+            width: calc(100% - 40px);
+            background-color: rgb(34, 153, 189);
+        }
+
+        /*    usando uma pseudo-classe */
+        .selector:hover {
+            background-color: salmon;
+        }
+
+        /*Usando um Pseudo-elemento*/
+        .selector::first-letter {
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        .selector::first-line {
+            font-style: italic;
+        }
     </style>
 </head>
 
